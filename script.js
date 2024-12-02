@@ -1,4 +1,4 @@
-vlet answers = {
+let answers = {
     E: 0,
     I: 0,
     S: 0,
