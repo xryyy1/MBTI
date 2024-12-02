@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>MBTI Test</h1>
+        <p>Answer the following questions to find out your MBTI personality type!</p>
+        
+        <div id="question-container">
+            <div class="question" id="q1">
+                <p>Do you prefer to focus on the outer world or your own inner world?</p>
+                <button onclick="answer('I')">Inner World (I)</button>
+                <button onclick="answer('E')">Outer World (E)</button>
+            </div>
+            <!-- Add more questions here -->
+            <div class="question" id="q2">
+                <p>Do you prefer to focus on the facts and details, or the big picture and concepts?</p>
+                <button onclick="answer('S')">Facts and Details (S)</button>
+                <button onclick="answer('N')">Big Picture (N)</button>
+            </div>
+            <!-- Add more questions if needed -->
+        </div>
+
+        <div id="result-container" style="display: none;">
+            <h2>Your MBTI Type:</h2>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
